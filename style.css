@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #4d4f62;
+  margin: 85px 40px 79px 39px;
+  background: #fafafa;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 275;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.166667px;
+  color: #4d4f62;
+  text-align: center;
+  white-space: nowrap;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: center;
+  letter-spacing: 0.166667px;
+}
+.heaer-box__txt {
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+
+  text-align: center;
+  letter-spacing: 0.104167px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+/* 4 elemet coteier*/
+.four-element-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 7.6rem;
+}
+.packet {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.elem-1,
+.elem-2,
+.elem-3,
+.elem-4 {
+  /*padding: 0 28px 28px 28px;*/
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.top-color {
+  height: 3.5px;
+  background: #4d4f62;
+}
+
+.elem-1 .top-color {
+  background: #44d3d2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.elem-2 .top-color {
+  background: #ea5454;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.elem-3 .top-color {
+  background: #fcae4a;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.elem-4 .top-color {
+  background: #549ef2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.calculator-box,
+.karma-box,
+.team-Builder-box,
+.supervisor-box {
+  padding: 2.3rem 2.8rem 2.8rem 2.8rem;
+}
+.img-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3.3rem;
+}
+@media (min-width: 1440px) {
+  body {
+    margin: 8rem 16.5rem;
+  }
+  .four-element-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+j
